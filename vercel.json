@@ -6,7 +6,8 @@
       "framework": "vite"
     },
     "backend": {
-      "root": "backend",
+      "entrypoint": "backend/server.js",
+      "runtime": "@vercel/node",
       "routePrefix": "/api"
     }
   }
