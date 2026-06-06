@@ -7,7 +7,6 @@
     },
     "backend": {
       "entrypoint": "backend/server.js",
-      "runtime": "@vercel/node",
       "routePrefix": "/api"
     }
   }
